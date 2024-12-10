@@ -1,0 +1,16 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card-height{
+  min-height: 100%;
+}
+
+.center-crop{
+  object-fit: none; /* Do not scale the image */
+  object-position: center; /* Center the image within the element */
+  min-height: 240px;
+  width: 100%;
+}
